@@ -1,0 +1,17 @@
+# All even values are x's turn
+# All odd values are o's turn
+# Return values only if turn number is less than 9
+# Only spaces between 0-8
+
+
+
+def current_player(turn_num) :
+    if (turn_num <= 8  and turn_num >= 0):
+        if turn_num % 2 == 0 :
+            return 'x'
+        elif turn_num % 2 == 1 :
+            return 'o'
+    else :
+        print ' Invalid turn number'
+
+

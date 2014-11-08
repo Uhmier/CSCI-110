@@ -1,0 +1,19 @@
+
+#Give Variables String Values
+
+# Define function, write If statements to return fortunes.
+
+#define fuction, when smaller numbers is true
+#allow user to select between 1 and 4.
+#If not use while loop to make user try again
+#Repeat with values 5 through 8 for when smaller numbers is false
+
+#define function, allow user to input color selection. Use upper function
+#If invalid selection use while loop to correct
+#return color selection
+
+#define function. ask usr for question. run color selection.
+# create smaller numbers boolean
+#run get number selection for first choice
+# use first choice to run get numebr selection again
+# print user question and get fortune

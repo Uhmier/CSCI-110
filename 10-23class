@@ -1,0 +1,43 @@
+##import random
+##a = [ random.choice(range(0,5000)) for b in range(0,100)  ]
+##print [random.choice(range(0,5000)) for b in range(0,100) if b / 33 == 1 ]
+##print '(Break ________________________________________________)'
+##print a 
+##
+##def bi_search(a,LB) :
+##    while TRUE :
+##        if len(LB) == 1 :
+##            return LB[0] == a
+##        else :
+##            mid = len(LB) / 2
+##            if a > mid :
+##                LB = LB[:mid]
+##            elif a < mid :
+##                LB = LB[mid:]
+##            elif a == mid :
+##                return True
+
+# more sorting, this time alphabetical
+def num_sort(x):   
+    sorted= []
+    c = len(x)
+    while not len(sorted) == c :
+        a = 0
+        b= 0
+        for num in x :
+            if x[a] < x[b] :
+                 b+=1
+            elif x[a] >= x[b] :
+                 a = b
+                 b = a + 1            
+        sorted.append(x[a])
+        x.remove(x[a])
+    print c
+    return sorted
+
+x = [3,7,28,5,21,22,25,23,0,43]
+print num_sort( x)
+
+
+
+# for num in x:

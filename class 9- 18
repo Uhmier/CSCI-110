@@ -1,0 +1,18 @@
+#class byg 9-18-2014
+# Ask for usr_num, create a while statement until even_num >= usr_num
+
+#variables
+usr_num  = raw_input('Choose a number \n :: ')
+even_num = 0
+
+def check_nums(usr_num) :
+    usr_num = int(usr_num)
+    return usr_num >= even_num
+
+
+while check_nums(usr_num) :
+    print even_num
+    even_num += 2
+
+
+

@@ -1,0 +1,39 @@
+# Write a program the requests a natural number from the user  and then
+#prints out every even number between 0 and that number
+
+#int(raw_input())
+#may need an if branch, to tell if number is even or odd
+usr_input = int(raw_input('Choose a number \n :: ' ))
+if usr_input % 2 == 0 :
+    while not usr_input == 0 :
+        usr_input -= 2
+        print usr_input
+    
+elif usr_input % 2 == 1 :
+    usr_input -= 1
+    print usr_input 
+    while not usr_input == 0 :
+        usr_input -= 2
+        print usr_input
+        
+out_num = 0
+while out_num <= usr_input :
+    print out_num
+    out_num += 2
+#write an area calculator
+def get_area(a,b)
+usr_in = raw_input().capitalize()
+if usr_in == 'Triangle' :
+    area = .5 * a * b
+    return area
+if usr_in == 'Rectangle' or usr_in == 'Square' :
+    area = a * b
+    return area
+
+ def check_digit(string) :
+     string = int(string)
+     if (string < 0) or (string > 9) :
+         return False
+     return True
+         
+        

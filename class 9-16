@@ -1,0 +1,28 @@
+CORRECT_MSG = 'You win!'
+HIDDEN_NUM = 5
+INCORRECT_MSG = 'Nope!'
+LOSE_MSG = 'You lose!'
+
+
+def convert_and_check_guess(guess): # Definition of function
+  guess = int(guess) # string guess is converted to int
+  return guess == 5 # outputs to program the value of the boo exp guess == 0
+
+print ('Guess a number between 0 and 10! '
+       'Maybe you\'ll get it right!')
+guess = raw_input(':: ')
+if not convert_and_check_guess(guess):
+  print INCORRECT_MSG
+  guess = raw_input(':: ')
+  if not convert_and_check_guess(guess):
+    print INCORRECT_MSG
+    guess = raw_input(':: ')
+    if not convert_and_check_guess(guess):    
+      print LOSE_MSG
+    else:
+      print CORRECT_MSG
+  else:
+    print CORRECT_MSG
+else:
+  print CORRECT_MSG
+       

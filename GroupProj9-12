@@ -1,0 +1,19 @@
+INTEGER_A = float(raw_input(' What is your first number?  '))
+INTEGER_B = float(raw_input(' What is the second number?  '))
+if INTEGER_A > INTEGER_B :
+    if INTEGER_A % INTEGER_B = 0 :
+        print 'Yes,' + str(INTEGER_B) + ' is a factor of ' + str(INTEGER_A)
+    else :
+        Print 'No,' + str(INTEGER_B) + ' is not a factor of ' + str(INTEGER_A)
+elif INTERGER_B > INTEGER_A :
+    if INTEGER_B % INTEGER_A == 0 :
+        print 'Yes, ' + str(INTEGER_A) + ' is a factor of ' + str(INTEGER_B)
+    else 
+        print 'No, ' + str(INTEGER_A) + " is not a factor of ' + str(INTEGER_B)
+print ' Thank you for using my program.'
+
+    
+    
+    
+        
+                

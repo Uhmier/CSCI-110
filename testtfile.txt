@@ -1,0 +1,7 @@
+Bright ; bright@fisk.edu ; 1
+Kofi ; kofi@fisk.edu ; 2
+Lee ; b ; 3
+a ; b ; 4
+b ; c; 5
+c ; d; last
+e;r;90

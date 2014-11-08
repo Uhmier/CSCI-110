@@ -1,0 +1,14 @@
+# class : iteration 9-18-2014
+print "Guess a number between 1 and 100!"
+HIDDEN_NUM = '5'
+INCORRECT_MSG = 'You have guessed incorrect, try again!'
+response = ''
+
+while response != '5' :
+    response = raw_input('What is your guess? :  ')
+    print INCORRECT_MSG + ' Your guess was, ' + response
+else :
+    print 'You guessed, ' + response + ' You have won!'
+print "Thank you for using Uhmier's program."
+    
+
